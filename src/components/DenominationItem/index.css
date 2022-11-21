@@ -1,0 +1,18 @@
+.button-list {
+  list-style-type: none;
+}
+
+.button {
+  height: 40px;
+  width: 90px;
+  background-color: #382f5a;
+  background-size: cover;
+  color: #c4c4c4;
+  border: 1px solid #c4c4c4;
+  font-size: 30px;
+  font-family: 'Roboto';
+  cursor: pointer;
+  outline: none;
+  border-radius: 9px;
+  margin: 20px;
+}

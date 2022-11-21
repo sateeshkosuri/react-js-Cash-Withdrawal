@@ -1,0 +1,119 @@
+.cash-withdrawal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and(max-width:768px) {
+  .cash-withdrawal-container {
+    justify-content: flex-start;
+  }
+}
+.card-container {
+  background-color: #150b3e;
+  background-size: cover;
+  height: 50%;
+  width: 50%;
+  border-radius: 15px;
+  padding-left: 25px;
+}
+.card-line {
+  display: flex;
+  flex-direction: row;
+}
+.title {
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Roboto';
+  padding-top: 25px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media screen and(max-width:768px) {
+  .title {
+    height: 50px;
+    width: 50px;
+    font-size: 15px;
+  }
+}
+.para {
+  color: #d4d2db;
+  font-size: 30px;
+  font-family: 'roboto';
+  padding-left: 15px;
+}
+@media screen and(max-width:768px) {
+  .para {
+    font-size: 20px;
+  }
+}
+.your-balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.your-balance {
+  color: #585076;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+@media screen and(max-width:768px) {
+  .your-balance {
+    font-size: 20px;
+  }
+}
+.amount-container {
+  margin-right: 30px;
+}
+.amount {
+  color: #d4d2db;
+  font-size: 35px;
+  font-family: 'Roboto';
+}
+@media screen and(max-width:768px) {
+  .amount {
+    font-size: 25px;
+  }
+}
+
+.in-rupees {
+  color: #585076;
+  font-size: 15px;
+  font-family: 'roboto';
+}
+@media screen and(max-width:768px) {
+  .in-rupees {
+    font-size: 10px;
+  }
+}
+.withdraw-amount {
+  color: #d4d2db;
+  font-size: 30px;
+  font-family: 'roboto';
+}
+@media screen and(max-width:768px) {
+  .withdraw-amount {
+    font-size: 25px;
+  }
+}
+.choose-sum {
+  color: #585076;
+  font-size: 20px;
+  font-family: 'roboto';
+}
+@media screen and(max-width:768px) {
+  .choose-sum {
+    font-size: 15px;
+  }
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+}
